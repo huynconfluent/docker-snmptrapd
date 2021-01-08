@@ -1,0 +1,8 @@
+---
+version: '3.5'
+services:
+
+  snmptrap:
+    image: snmp-trap-servver
+    hostname: snmptrap
+    container_name: snmptrap
